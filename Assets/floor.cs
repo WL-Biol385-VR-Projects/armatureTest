@@ -30,7 +30,7 @@ public class floor : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        Debug.Log("Finally, shit left this trigger");
+        Debug.Log("exit");
     }
 
 }
