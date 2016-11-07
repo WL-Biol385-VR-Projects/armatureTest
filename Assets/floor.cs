@@ -20,7 +20,6 @@ public class floor : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("enter");
-     
     }
 
     public void OnTriggerStay(Collider other)    {
