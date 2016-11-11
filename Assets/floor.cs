@@ -23,7 +23,6 @@ public class floor : MonoBehaviour
     }
 
     public void OnTriggerStay(Collider other)    {
-        //Debug.Log("shit's staying in this trigger");
         other.GetComponent<Rigidbody>().AddForce(Vector3.up * floorForce, ForceMode.Acceleration);
     }
 
