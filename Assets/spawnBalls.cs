@@ -6,9 +6,9 @@ public class spawnBalls : MonoBehaviour {
 
     // `public` variables are exposed as configurable attributes on script components
     public Transform ballPrefab;
-    public int ballCount;
-    public float maxVelocity;
-    public Vector3 areaCenter, areaScale;
+    public int       ballCount;
+    public float     maxVelocity;
+    public Vector3   areaCenter, areaScale;
 
 	// Run at scene initialization
 	void Start () {
